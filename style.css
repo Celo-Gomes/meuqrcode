@@ -1,0 +1,129 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #333333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    position: fixed;
+}
+.suggestion{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    left: 13vh;
+    position: relative;
+    z-index: 2;
+    border: 3px black double;
+}
+.opt{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+    top: 2vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    resize: none;
+    border: 3px solid lightgreen;
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 0;
+}
+.show{
+    z-index: 3;
+    opacity: 1;
+}
+::-webkit-scrollbar{
+    width: 10px;
+} 
+::-webkit-scrollbar-track{
+    background-color:lightgreen;
+    border-radius: 0px 5px 5px 0px;
+} 
+::-webkit-scrollbar-thumb{
+    background-color: green;
+    border-radius: 5px;
+} 
+ ::-webkit-scrollbar-corner{
+    display:none;
+}
+#gb{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-left: 195px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+ul{
+    font-size: 12px;
+    position: relative;
+    left: -6vw;
+}
+ul dl{
+    font-weight: bolder;
+}
+ul dd{
+    position: relative;
+    font-weight: initial;
+    left: -8vw;
+}
+.container{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #0000010a;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+hr{
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+.qrcode{
+    margin: 40px 0;
+}
+footer{
+   width:300px;
+   height: 20px;
+   color: #ccf;
+   position: relative;
+   font-weight: bold;
+   font-size: 10px;
+   font-style: italic;
+   left: 10vh; 
+   margin-top: 10vh;
+   /* transform: rotateZ(-90deg); */
+}
+@media(min-width:768px){
+    ul{
+        left: -2vw;
+    }
+    ul dd{
+        left: -2vw;
+    }
+}

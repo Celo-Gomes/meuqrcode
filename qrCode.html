@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div class="suggestion" onclick="show()">Suggestions</div>
+
+    <div class="opt">
+        <div id="gb" onclick="show()">↩️</div>
+        <ul>
+            <dl>
+                <dt>WHATS APP</dt>
+                <dd>https://wa.me/55DDDnumerotel</dd>
+                <dt>INSTAGRAM</dt>
+                <dd>https://www.instagram.com/username</dd>
+                <dt>FACEBOOK</dt>
+                <dd>https://www.facebook.com/username</dd>
+                <dt>E-MAIL</dt>
+                <dd>seu.email@mail.com</dd>
+                <dt>TELEGRAM</dt>
+                <dd>https://t.me/username</dd>
+                <dt>LINKEDIN</dt>
+                <dd>https://www.linkedin.com/in/username</dd>
+                <dt>GITHUB</dt>
+                <dd>https://github.com/username</dd>
+                <dt>PÁGINA WEB</dt>
+                <dd>www.suapagina.com</dd>
+                <dt>TEXTO</dt>
+                <dd>Digite sem acentos ou cidilha</dd>
+                <dt>AO ESCANEAR TEXTO</dt>
+                <dd>Se usar o google lens, role para cima</dd>
+                <dd>Ao usar app de scan, se abrir o google, voltar</dd>
+            </dl>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <div class="qrcode"></div>
+        <input type="text" name="url" id="url" placeholder="Enter a URL" onchange="generateQr()">
+    </div>
+
+    <footer>M.Gomes&copy; SolutionsTechnology.</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
