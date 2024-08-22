@@ -44,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-O Layout do projeto é de deselvolvimento próprio, usando de simplicidade, visando a mecânica e utilização.<br>
+O Layout do projeto toma como sugestão outras páginas online sobre o assunto, colocando algumas funcionalidades extras, usando de simplicidade, visando a mecânica e utilização.<br>
 
 ## :memo: Considerações
 
