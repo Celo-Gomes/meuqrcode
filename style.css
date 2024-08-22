@@ -22,6 +22,7 @@ body{
     position: relative;
     z-index: 2;
     border: 3px black double;
+    cursor: pointer;
 }
 .opt{
     position: absolute;
