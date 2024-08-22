@@ -1,7 +1,7 @@
 <h1 align="center"> Gerador de QR Code </h1>
 
 <p align="center">
-    Trata-se de um projeto destinado a gerar códigos QR através de uma bibilioteca javscript.<br>
+    Trata-se de um projeto destinado a gerar códigos QR através de uma bibilioteca javascript.<br>
     Para utilização de fins diversos, como apontamento de links para rede sociais e web sites.
 </p>
 
