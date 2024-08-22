@@ -34,8 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 <p>
-    A aplicação destina-se a criar códigos QR de acordo com endereços fornecidos pelo usuário<br>
-    Utilizando de biblioteca javascrit, a aplicação gera formas de QR com o intuito de que essas possas ser editadas atraves do aplicativo de imagens presentes nos smartphones, colocando algum título, ou simplesmente cortadas, podendo ser utilizadas em impressões ou simples divulgações por rede sociais.
+    A aplicação destina-se a criar códigos QR de acordo com endereços fornecidos pelo usuário.<br>
+    Utilizando de biblioteca javascrit, a aplicação gera formas de QR com o intuito de que essas possam ser editadas atraves do aplicativo de imagens presentes nos smartphones, colocando algum título, ou simplesmente cortadas, podendo ser utilizadas em impressões ou simples divulgações pelas rede sociais.
 </p>
 
 [Visite a documentação](https://cdnjs.com/libraries/qrcodejs)
